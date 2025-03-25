@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/login/login",
+    "pages/shixiIndex/shixiIndex",
+    "pages/xuexitong/sign/sign",
+    "pages/xuexitong/address/address",
+    "pages/userList/userList",
+    "pages/xuexitong/courseList/courseList",
+    "pages/xuexitong/courseDetail/courseDetail",
+    "pages/autoSign/autoSign",
+    "pages/timesGet/timesGet",
+    "pages/shixi/xuexitongshixi/xuexitongshixi",
+    "pages/xuexitong/scanCode/scanCode",
+    "pages/shixi/supershixi/supershixi",
+    "pages/captcha/captcha1",
+    "pages/captcha/webview/webview",
+    "pages/xuexitong/address/webview/webview"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#0000cd",
+    "list": [
+      {
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_activate.png",
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "static/shudong.png",
+        "selectedIconPath": "static/shudong_blue.png",
+        "text": "课程",
+        "pagePath": "pages/xuexitong/courseList/courseList"
+      },
+      {
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my_up.png",
+        "text": "个人中心",
+        "pagePath": "pages/user/user"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation",
+    "chooseAddress"
+  ],
+  "usingComponents": {}
+}
